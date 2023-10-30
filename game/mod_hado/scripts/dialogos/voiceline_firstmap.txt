@@ -1,0 +1,53 @@
+"dia_intro_1"
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      100
+    soundlevel SNDLVL_NORM
+    wave       Oriana/intro_1.wav
+}
+
+"dia_intro_2"
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      100
+    soundlevel SNDLVL_NORM
+    wave       Oriana/intro_2.wav
+}
+
+"dia_intro_3"
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      100
+    soundlevel SNDLVL_NORM
+    wave       Oriana/intro_3.wav
+}
+
+"dia_habitacion_nene_1"
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      100
+    soundlevel SNDLVL_NORM
+    wave       Oriana/habitacion_nene_1.wav
+}
+
+"dia_habitacion_nene_2"
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      100
+    soundlevel SNDLVL_NORM
+    wave       Oriana/habitacion_nene_2.wav
+}
+
+"dia_habitacion_nene_3"
+{
+    channel    CHAN_VOICE2
+    volume     1
+    pitch      100
+    soundlevel SNDLVL_NORM
+    wave       Oriana/habitacion_nene_3.wav
+}

@@ -1,0 +1,43 @@
+// Choreo version 1
+actor "Oriana"
+{
+  channel "Channel"
+  {
+    event speak "dia_habitacion_nene_1"
+    {
+      time 0.746667 6.258503
+      param "dia_habitacion_nene_1"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dia_habitacion_nene_2"
+    {
+      time 5.302779 13.296248
+      param "dia_habitacion_nene_2"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+    event speak "dia_habitacion_nene_3"
+    {
+      time 12.891666 34.573299
+      param "dia_habitacion_nene_3"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "CChoreoView" "12"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "ExpressionTool" "100"
+  "GestureTool" "100"
+}
+fps 60
+snap off
+ignorePhonemes off

@@ -1,0 +1,29 @@
+﻿Build started 29/10/2023 11:11:46.
+     1>Project "C:\project-hado\src\game\client\client_hl2.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if not exist "..\..\..\game\mod_hado\bin\." mkdir "..\..\..\game\mod_hado\bin\."
+         :VCEnd
+       Link:
+         client_hl2.vcxproj -> C:\project-hado\src\game\client\.\Debug_mod_hl2\client.dll
+       PostBuildEvent:
+         if not exist "..\..\..\game\mod_hl2\bin\." mkdir "..\..\..\game\mod_hl2\bin\."
+         copy "C:\project-hado\src\game\client\Debug_mod_hl2\client.dll" "..\..\..\game\mod_hl2\bin\.\client.dll"
+         if ERRORLEVEL 1 goto BuildEventFailed
+         if exist "C:\project-hado\src\game\client\Debug_mod_hl2\client.map" copy "C:\project-hado\src\game\client\Debug_mod_hl2\client.map" ..\..\..\game\mod_hl2\bin\.\client.map
+         copy "C:\project-hado\src\game\client\Debug_mod_hl2\client.pdb" ..\..\..\game\mod_hl2\bin\.\client.pdb
+         if ERRORLEVEL 1 goto BuildEventFailed
+         goto BuildEventOK
+         :BuildEventFailed
+         echo *** ERROR! PostBuildStep FAILED for Client (HL2)! EXE or DLL is probably running. ***
+         del /q "C:\project-hado\src\game\client\Debug_mod_hl2\client.dll"
+         exit 1
+         :BuildEventOK
+         
+         :VCEnd
+                 1 archivo(s) copiado(s).
+                 1 archivo(s) copiado(s).
+     1>Done Building Project "C:\project-hado\src\game\client\client_hl2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.30

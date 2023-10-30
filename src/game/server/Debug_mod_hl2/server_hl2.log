@@ -1,0 +1,20 @@
+﻿Build started 15/07/2023 21:07:28.
+     1>Project "C:\Hado\source-sdk-2013-master\sp\src\game\server\server_hl2.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         if EXIST ..\..\..\game\mod_hl2\bin\.\server.dll for /f "delims=" %%A in ('attrib "..\..\..\game\mod_hl2\bin\.\server.dll"') do set valveTmpIsReadOnly="%%A"
+         set valveTmpIsReadOnlyLetter=%valveTmpIsReadOnly:~6,1%
+         if "%valveTmpIsReadOnlyLetter%"=="R" del /q "C:\Hado\source-sdk-2013-master\sp\src\game\server\Debug_mod_hl2\"server.dll
+         if exist "..\..\devtools\bin\vpc.exe" "..\..\devtools\bin\vpc.exe" -crc2 "server_hl2.vcxproj"
+         if ERRORLEVEL 1 exit /b 1
+         
+         :VCEnd
+       Link:
+         server_hl2.vcxproj -> C:\Hado\source-sdk-2013-master\sp\src\game\server\.\Debug_mod_hl2\server.dll
+       PostBuildEvent:
+         if not exist "..\..\..\game\mod_hado\bin\." mkdir "..\..\..\game\mod_hado\bin\."
+         :VCEnd
+     1>Done Building Project "C:\Hado\source-sdk-2013-master\sp\src\game\server\server_hl2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03
