@@ -1,8 +1,11 @@
-﻿Build started 28/10/2023 21:50:57.
+﻿Build started 01/11/2023 16:31:50.
      1>Project "C:\project-hado\src\game\client\client_hl2.vcxproj" on node 2 (Build target(s)).
      1>PreBuildEvent:
          if not exist "..\..\..\game\mod_hado\bin\." mkdir "..\..\..\game\mod_hado\bin\."
          :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\hl2 /I.\hl2\elements /I..\..\game\shared\hl2 /I.\ /I..\..\common /I..\..\public /I..\..\public\tier0 /I..\..\public\tier1 /I..\..\game\client\generated_proto_mod_hl2 /I"..\..\thirdparty\protobuf-2.3.0\src" /I..\..\vgui2\include /I..\..\vgui2\controls /I..\..\game\shared /I.\game_controls /I..\..\thirdparty\sixensesdk\include /Zi /nologo /W4 /WX /MP /O2 /Ob2 /Oi /Ot /Oy- /D VPC /D RAD_TELEMETRY_DISABLED /D WIN32 /D _WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _ALLOW_RUNTIME_LIBRARY_MISMATCH /D _ALLOW_ITERATOR_DEBUG_LEVEL_MISMATCH /D _ALLOW_MSC_VER_MISMATCH /D _USING_V110_SDK71_ /D _WINDLL /D _MBCS /D COMPILER_MSVC32 /D COMPILER_MSVC32 /D COMPILER_MSVC /D _DLL_EXT=.dll /D DLLNAME=client /D BINK_VIDEO /D AVI_VIDEO /D WMV_VIDEO /D DEV_BUILD /D FRAME_POINTER_OMISSION_DISABLED /D NO_STRING_T /D CLIENT_DLL /D VECTOR /D VERSION_SAFE_STEAM_API_INTERFACES /D PROTECTED_THINGS_ENABLE /D strncpy=use_Q_strncpy_instead /D _snprintf=use_Q_snprintf_instead /D ENABLE_CHROMEHTMLWINDOW /D fopen=dont_use_fopen /D HL2_CLIENT_DLL /D _EXTERNAL_DLL_EXT=.dll /D VPCGAMECAPS=VALVE /D "PROJECTDIR=C:\project-hado\src\game\client" /D _DLL_EXT=.dll /D VPCGAME=valve /D SOURCE1=1 /GF /Gm- /MT /GS /Gy /arch:SSE /fp:fast /Zc:wchar_t /Zc:forScope /GR /Yu"cbase.h" /Fp".\Release_mod_hl2\/client.pch" /Fo".\Release_mod_hl2\/" /Fd".\Release_mod_hl2\/vc120.pdb" /Gd /TP /wd4316 /analyze- /FC /errorReport:prompt /Zm200 /d2Zi+ /Gw ..\..\game\shared\gamemovement.cpp
+         gamemovement.cpp
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release_mod_hl2\\client.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\lib\common\. /LIBPATH:..\..\lib\public\. shell32.lib user32.lib advapi32.lib gdi32.lib comdlg32.lib ole32.lib winmm.lib /NODEFAULTLIB:libc /NODEFAULTLIB:libcd /NODEFAULTLIB:libcmtd /MANIFEST:NO /DEBUG /PDB:".\Release_mod_hl2\/client.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:NOICF /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /MACHINE:X86 /SAFESEH:NO  /ignore:4221 /DLL .\Release_mod_hl2\\pointeroverride.obj
          .\Release_mod_hl2\/mp3player.obj
@@ -522,10 +525,10 @@
          client_hl2.vcxproj -> C:\project-hado\src\game\client\.\Release_mod_hl2\client.dll
        PostBuildEvent:
          if not exist "..\..\..\game\mod_hl2\bin\." mkdir "..\..\..\game\mod_hl2\bin\."
-         copy "C:\project-hado\src\game\client\Release_mod_hl2\client.dll" "..\..\..\game\mod_hl2\bin\.\client.dll"
+         copy "C:\project-hado\src\game\client\Release_mod_hl2\client.dll" "..\..\..\game\mod_hado\bin\.\client.dll"
          if ERRORLEVEL 1 goto BuildEventFailed
-         if exist "C:\project-hado\src\game\client\Release_mod_hl2\client.map" copy "C:\project-hado\src\game\client\Release_mod_hl2\client.map" ..\..\..\game\mod_hl2\bin\.\client.map
-         copy "C:\project-hado\src\game\client\Release_mod_hl2\client.pdb" ..\..\..\game\mod_hl2\bin\.\client.pdb
+         if exist "C:\project-hado\src\game\client\Release_mod_hl2\client.map" copy "C:\project-hado\src\game\client\Release_mod_hl2\client.map" ..\..\..\game\mod_hado\bin\.\client.map
+         copy "C:\project-hado\src\game\client\Release_mod_hl2\client.pdb" ..\..\..\game\mod_hado\bin\.\client.pdb
          if ERRORLEVEL 1 goto BuildEventFailed
          goto BuildEventOK
          :BuildEventFailed
@@ -533,7 +536,6 @@
          del /q "C:\project-hado\src\game\client\Release_mod_hl2\client.dll"
          exit 1
          :BuildEventOK
-         
          :VCEnd
                  1 archivo(s) copiado(s).
                  1 archivo(s) copiado(s).
@@ -541,4 +543,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:22.53
+Time Elapsed 00:00:19.99

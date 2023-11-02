@@ -227,18 +227,17 @@ exit 1
     <PostBuildEvent>
       <Message>Publishing to ..\..\..\game\mod_hl2\bin\.</Message>
       <Command>if not exist "..\..\..\game\mod_hl2\bin\." mkdir "..\..\..\game\mod_hl2\bin\."
-copy "$(TargetDir)$(TargetFileName)" "..\..\..\game\mod_hl2\bin\.\$(TargetFileName)"
+copy "$(TargetDir)$(TargetFileName)" "..\..\..\game\mod_hado\bin\.\$(TargetFileName)"
 if ERRORLEVEL 1 goto BuildEventFailed
-if exist "$(TargetDir)$(TargetName).map" copy "$(TargetDir)$(TargetName).map" ..\..\..\game\mod_hl2\bin\.\$(TargetName).map
-copy "$(TargetDir)$(TargetName).pdb" ..\..\..\game\mod_hl2\bin\.\$(TargetName).pdb
+if exist "$(TargetDir)$(TargetName).map" copy "$(TargetDir)$(TargetName).map" ..\..\..\game\mod_hado\bin\.\$(TargetName).map
+copy "$(TargetDir)$(TargetName).pdb" ..\..\..\game\mod_hado\bin\.\$(TargetName).pdb
 if ERRORLEVEL 1 goto BuildEventFailed
 goto BuildEventOK
 :BuildEventFailed
 echo *** ERROR! PostBuildStep FAILED for $(ProjectName)! EXE or DLL is probably running. ***
 del /q "$(TargetDir)$(TargetFileName)"
 exit 1
-:BuildEventOK
-</Command>
+:BuildEventOK</Command>
     </PostBuildEvent>
     <CustomBuildStep>
     </CustomBuildStep>
