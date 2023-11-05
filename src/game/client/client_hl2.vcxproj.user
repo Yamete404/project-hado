@@ -4,7 +4,7 @@
     <LocalDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\hl2.exe</LocalDebuggerCommand>
     <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer</LocalDebuggerWorkingDirectory>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommandArguments>allowdebug -sw -console -condebug -toconsole -game "C:\Hado\source-sdk-2013-master\sp\game\mod_hado"</LocalDebuggerCommandArguments>
+    <LocalDebuggerCommandArguments>-allowdebug -sw -console -toconsole -condebug -game "C:\project-hado\game\mod_hado"</LocalDebuggerCommandArguments>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerCommand>C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\hl2.exe</LocalDebuggerCommand>

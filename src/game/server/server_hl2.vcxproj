@@ -128,12 +128,12 @@
       <OutputFile>$(OutDir)/server.bsc</OutputFile>
     </Bscmake>
     <PostBuildEvent>
-      <Message>Publishing to ..\..\..\game\mod_hl2\bin\.</Message>
+      <Message>Publishing to ..\..\..\game\mod_hado\bin\.</Message>
       <Command>if not exist "..\..\..\game\mod_hl2\bin\." mkdir "..\..\..\game\mod_hl2\bin\."
-copy "$(TargetDir)$(TargetFileName)" "..\..\..\game\mod_hl2\bin\.\$(TargetFileName)"
+copy "$(TargetDir)$(TargetFileName)" "..\..\..\game\mod_hado\bin\.\$(TargetFileName)"
 if ERRORLEVEL 1 goto BuildEventFailed
-if exist "$(TargetDir)$(TargetName).map" copy "$(TargetDir)$(TargetName).map" ..\..\..\game\mod_hl2\bin\.\$(TargetName).map
-copy "$(TargetDir)$(TargetName).pdb" ..\..\..\game\mod_hl2\bin\.\$(TargetName).pdb
+if exist "$(TargetDir)$(TargetName).map" copy "$(TargetDir)$(TargetName).map" ..\..\..\game\mod_hado\bin\.\$(TargetName).map
+copy "$(TargetDir)$(TargetName).pdb" ..\..\..\game\mod_hado\bin\.\$(TargetName).pdb
 if ERRORLEVEL 1 goto BuildEventFailed
 goto BuildEventOK
 :BuildEventFailed
@@ -371,6 +371,7 @@ exit 1
     <ClInclude Include="..\..\game\shared\movevars_shared.h" />
     <ClInclude Include="..\..\game\shared\mp_shareddefs.h" />
     <ClInclude Include="..\..\public\networkvar.h" />
+    <ClInclude Include="npc_bubbles.h" />
     <ClInclude Include="npc_vehicledriver.h" />
     <ClInclude Include="..\..\game\shared\npcevent.h" />
     <ClInclude Include="..\..\public\vphysics\object_hash.h" />
@@ -1112,6 +1113,7 @@ exit 1
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">NotUsing</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="npc_bubbles.cpp" />
     <ClCompile Include="npc_vehicledriver.cpp" />
     <ClCompile Include="..\..\game\shared\obstacle_pushaway.cpp" />
     <ClCompile Include="particle_light.cpp" />

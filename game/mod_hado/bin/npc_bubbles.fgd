@@ -1,0 +1,3 @@
+@NPCClass base(BaseNPC) studio("models/Zombie/Classic.mdl") = npc_bubbles : "Entity Bubbles"
+[
+]

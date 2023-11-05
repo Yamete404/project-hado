@@ -1,5 +1,9 @@
+Convar developer has multiple help strings:
+	parent (wins): "Set developer message level"
+	child: "Set developer message level."
 CSoundEmitterSystem:  Registered 5146 sounds
 CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
+Unable to remove c:\project-hado\game\mod_hado\gamestats.log!
 maxplayers set to 1
 Heap: 256.00 Mb
 KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
@@ -9,481 +13,11 @@ Resource/GameLogo.res, (*Logo*),
 Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
 Parsed 26 text messages
 CClientSteamContext logged on = 0
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-execing config.cfg
-Unknown command "cl_thirdperson"
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 822 bytes
-Compact freed 311296 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.517 msec!
-Dropped unnamed from server (Server shutting down)
----- Host_NewGame ----
-Spawn Server: npc_test
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 8
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Game started
-
-Half-Life 2
-Map: npc_test
-Players: 1 / 1
-Build: 0
-Server Number: 2
-
-Initializing renderer...
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 31.052 KB, outgoing 1.145 KB
-Queued Material System: ENABLED!
-Compact freed 921600 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 2.628 msec!
-Attempted to create unknown entity type npc_bubbles!
-Unknown command: npc_bubbles
-Dropped unnamed from server (Kicked from server)
-Disconnect: Kicked from server.
-Disconnect: Kicked from server.
-
-Queued Material System: DISABLED!
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-Parsed 26 text messages
-CClientSteamContext logged on = 0
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-execing config.cfg
-Unknown command "cl_thirdperson"
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 822 bytes
-Compact freed 311296 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.534 msec!
-Dropped unnamed from server (Disconnect by user.)
----- Host_NewGame ----
-Spawn Server: npc_test
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 8
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 4 classes, 1088 bytes.
-Game started
-
-Half-Life 2
-Map: npc_test
-Players: 1 / 1
-Build: 0
-Server Number: 2
-
-Initializing renderer...
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 32.162 KB, outgoing 1.101 KB
-Queued Material System: ENABLED!
-Compact freed 950272 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 3.297 msec!
-Attempted to create unknown entity type npc_bubbles!
-Unknown command: npc_reate
-Attempted to create unknown entity type npc_bubbles!
-Queued Material System: DISABLED!
-Dropped unnamed from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-Parsed 26 text messages
-CClientSteamContext logged on = 0
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-execing config.cfg
-Unknown command "cl_thirdperson"
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 822 bytes
-Compact freed 311296 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.410 msec!
-Dropped unnamed from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-Parsed 26 text messages
-CClientSteamContext logged on = 0
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-execing config.cfg
-Unknown command "cl_thirdperson"
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 822 bytes
-Compact freed 311296 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.466 msec!
-Dropped unnamed from server (Disconnect by user.)
----- Host_NewGame ----
-Spawn Server: npc_test
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 8
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 4 classes, 1088 bytes.
-Game started
-
-Half-Life 2
-Map: npc_test
-Players: 1 / 1
-Build: 0
-Server Number: 2
-
-Initializing renderer...
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 32.142 KB, outgoing 1.101 KB
-Queued Material System: ENABLED!
-Compact freed 888832 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 3.082 msec!
-Attempted to create unknown entity type npc_bubbles!
-Queued Material System: DISABLED!
-Dropped unnamed from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-Parsed 26 text messages
-CClientSteamContext logged on = 0
+Parent and child ConVars with different default values! sk_dmg_take_scale3 child: 1.50 parent: 2.0 (parent wins)
+Convar developer has multiple help strings:
+	parent (wins): "Set developer message level"
+	child: "Set developer message level."
+Parent and child ConVars with different default values! hl2_episodic child: 0 parent: 1 (parent wins)
 CGameEventManager::AddListener: event 'achievement_earned' unknown.
 execing config_default.cfg
 Host_WriteConfiguration: Wrote cfg/config.cfg
@@ -505,10 +39,6 @@ Spawn Server: background_bathroom
 execing skill_manifest.cfg
 'skill.cfg' not present; not executing.
 execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
 Set Gravity 600.0 (0.250 tolerance)
 PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
 Loading AI graph
@@ -519,6 +49,9 @@ Got version 37
 Map version 10
 Done version checks
 Finishing load
+PrecacheScriptSound 'NPC_CombineBall_Episodic.Explosion' failed, no such sound script entry
+PrecacheScriptSound 'NPC_CombineBall_Episodic.WhizFlyby' failed, no such sound script entry
+PrecacheScriptSound 'NPC_CombineBall_Episodic.Impact' failed, no such sound script entry
 'cfg/motd.txt' not found; not loaded
 'cfg/motd_text.txt' not found; not loaded
 Created class baseline: 5 classes, 1290 bytes.
@@ -531,20 +64,18 @@ Build: 0
 Server Number: 1
 
 Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 34.115 KB, outgoing 822 bytes
-Compact freed 311296 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.621 msec!
+DataTable warning: No matching RecvTable for SendTable 'DT_FleshEffectTarget'.
+DataTable warning: No matching RecvTable for SendTable 'DT_HalfLife2SurvivalProxy'.
+DataTable warning: No matching RecvTable for SendTable 'DT_NPC_Puppet'.
+DataTable warning: No matching RecvTable for SendTable 'DT_CPropJeepEpisodic'.
+DataTable warning: No matching RecvTable for SendTable 'DT_PropScalable'.
+Client missing DT class CFleshEffectTarget
+Client missing DT class CHalfLife2SurvivalProxy
+Client missing DT class CNPC_Puppet
+Client missing DT class CPropJeepEpisodic
+Client missing DT class CPropScalable
+Host_EndGame: CL_ParseClassInfo_EndClasses: CreateDecoders failed.
+
 Dropped unnamed from server (Disconnect by user.)
 ---- Host_NewGame ----
 Spawn Server: npc_test
@@ -553,22 +84,18 @@ SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pi
 execing skill_manifest.cfg
 'skill.cfg' not present; not executing.
 execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
 Set Gravity 600.0 (0.250 tolerance)
 Loading AI graph
 Step 1 loading
 Checking version
 Passed first ver check
 Got version 37
-Map version 8
+Map version 31
 Done version checks
 Finishing load
 'cfg/motd.txt' not found; not loaded
 'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 4 classes, 1088 bytes.
+Created class baseline: 6 classes, 1462 bytes.
 Game started
 
 Half-Life 2
@@ -578,19 +105,26 @@ Build: 0
 Server Number: 2
 
 Initializing renderer...
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 32.142 KB, outgoing 1.321 KB
-Queued Material System: ENABLED!
-Compact freed 962560 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 4.796 msec!
+DataTable warning: No matching RecvTable for SendTable 'DT_FleshEffectTarget'.
+DataTable warning: No matching RecvTable for SendTable 'DT_HalfLife2SurvivalProxy'.
+DataTable warning: No matching RecvTable for SendTable 'DT_NPC_Puppet'.
+DataTable warning: No matching RecvTable for SendTable 'DT_CPropJeepEpisodic'.
+DataTable warning: No matching RecvTable for SendTable 'DT_PropScalable'.
+Client missing DT class CFleshEffectTarget
+Client missing DT class CHalfLife2SurvivalProxy
+Client missing DT class CNPC_Puppet
+Client missing DT class CPropJeepEpisodic
+Client missing DT class CPropScalable
+Host_EndGame: CL_ParseClassInfo_EndClasses: CreateDecoders failed.
+
+Dropped unnamed from server (Disconnect by user.)
 Attempted to create unknown entity type npc_bubbles!
-Queued Material System: DISABLED!
-Dropped unnamed from server (Server shutting down)
 Host_WriteConfiguration: Wrote cfg/config.cfg
 CreateEvent: event 'server_shutdown' not registered.
 Shutdown function ShutdownMixerControls() not in list!!!
+Convar developer has multiple help strings:
+	parent (wins): "Set developer message level"
+	child: "Set developer message level."
 CSoundEmitterSystem:  Registered 5146 sounds
 CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
 maxplayers set to 1
@@ -602,9 +136,13 @@ Resource/GameLogo.res, (*Logo*),
 Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
 Parsed 26 text messages
 CClientSteamContext logged on = 0
+Parent and child ConVars with different default values! sk_dmg_take_scale3 child: 1.50 parent: 2.0 (parent wins)
+Convar developer has multiple help strings:
+	parent (wins): "Set developer message level"
+	child: "Set developer message level."
+Parent and child ConVars with different default values! hl2_episodic child: 0 parent: 1 (parent wins)
 CGameEventManager::AddListener: event 'achievement_earned' unknown.
 execing config.cfg
-Unknown command "cl_thirdperson"
 cc_lang = 
 JOY_AXIS_X:  mapped to Turn (absolute)
 JOY_AXIS_Y:  mapped to Look (absolute)
@@ -633,10 +171,6 @@ Spawn Server: background_bathroom
 execing skill_manifest.cfg
 'skill.cfg' not present; not executing.
 execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
 Set Gravity 600.0 (0.250 tolerance)
 PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
 Loading AI graph
@@ -647,6 +181,9 @@ Got version 37
 Map version 10
 Done version checks
 Finishing load
+PrecacheScriptSound 'NPC_CombineBall_Episodic.Explosion' failed, no such sound script entry
+PrecacheScriptSound 'NPC_CombineBall_Episodic.WhizFlyby' failed, no such sound script entry
+PrecacheScriptSound 'NPC_CombineBall_Episodic.Impact' failed, no such sound script entry
 'cfg/motd.txt' not found; not loaded
 'cfg/motd_text.txt' not found; not loaded
 Created class baseline: 5 classes, 1290 bytes.
@@ -659,659 +196,23 @@ Build: 0
 Server Number: 1
 
 Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 822 bytes
-Compact freed 311296 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 1.018 msec!
-Attempted to create unknown entity type npc_bubbles!
-Models:
-   0: Flags:0x00000007 maps/background_bathroom.bsp
-   1: Flags:0x00020011 RefCount: 1 models/props_c17/furnituretoilet001a.mdl
-   2: Flags:0x00020011 RefCount: 1 models/props_interiors/sinkkitchen01a.mdl
-   3: Flags:0x00020011 RefCount: 1 models/props_interiors/bathtub01a.mdl
-   4: Flags:0x00020011 RefCount: 1 models/props_interiors/lightbulb01a.mdl
-   5: Flags:0x00020011 RefCount: 1 models/props_lab/pipesystem02a.mdl
-   6: Flags:0x00020011 RefCount: 1 models/props_lab/pipesystem02e.mdl
-   7: Flags:0x00020011 RefCount: 1 models/props_lab/pipesystem02d.mdl
-   8: Flags:0x00020007 RefCount: 1 models/Gibs/wood_gib01e.mdl
-   9: Flags:0x00020007 RefCount: 1 models/Gibs/wood_gib01d.mdl
-  10: Flags:0x00020007 RefCount: 1 models/Gibs/wood_gib01c.mdl
-  11: Flags:0x00020007 RefCount: 1 models/Gibs/wood_gib01b.mdl
-  12: Flags:0x00020007 RefCount: 1 models/Gibs/wood_gib01a.mdl
-  13: Flags:0x00020007 RefCount: 1 models/Gibs/Glass_shard01.mdl
-  14: Flags:0x00020007 RefCount: 1 models/Gibs/Glass_shard02.mdl
-  15: Flags:0x00020007 RefCount: 1 models/Gibs/Glass_shard03.mdl
-  16: Flags:0x00020007 RefCount: 1 models/Gibs/Glass_shard04.mdl
-  17: Flags:0x00020007 RefCount: 1 models/Gibs/Glass_shard05.mdl
-  18: Flags:0x00020007 RefCount: 1 models/Gibs/Glass_shard06.mdl
-  19: Flags:0x00020007 RefCount: 1 models/props_debris/concrete_chunk08a.mdl
-  20: Flags:0x00020007 RefCount: 1 models/props_debris/concrete_chunk09a.mdl
-  21: Flags:0x00020007 RefCount: 1 models/props_debris/concrete_chunk03a.mdl
-  22: Flags:0x00020007 RefCount: 1 models/props_debris/concrete_chunk07a.mdl
-  23: Flags:0x00020007 RefCount: 1 models/props_debris/concrete_chunk02a.mdl
-  24: Flags:0x00020007 RefCount: 1 models/Gibs/metal_gib1.mdl
-  25: Flags:0x00020007 RefCount: 1 models/Gibs/metal_gib2.mdl
-  26: Flags:0x00020007 RefCount: 1 models/Gibs/metal_gib3.mdl
-  27: Flags:0x00020007 RefCount: 1 models/Gibs/metal_gib4.mdl
-  28: Flags:0x00020007 RefCount: 1 models/Gibs/metal_gib5.mdl
-  29: Flags:0x00000007 sprites/zerogxplode.vmt
-  30: Flags:0x00000007 sprites/steam1.vmt
-  31: Flags:0x00000007 sprites/bubble.vmt
-  32: Flags:0x00000007 sprites/laserbeam.vmt
-  33: Flags:0x00000007 effects/bubble.vmt
-  34: Flags:0x00020007 RefCount: 1 models/weapons/w_bullet.mdl
-  35: Flags:0x00000007 cable/cable.vmt
-  36: Flags:0x00000007 cable/cable_lit.vmt
-  37: Flags:0x00000007 cable/chain.vmt
-  38: Flags:0x00000007 cable/rope.vmt
-  39: Flags:0x00000007 sprites/blueglow1.vmt
-  40: Flags:0x00000007 sprites/purpleglow1.vmt
-  41: Flags:0x00000007 sprites/purplelaser1.vmt
-  42: Flags:0x00020007 RefCount: 1 models/player.mdl
-  43: Flags:0x00020007 RefCount: 1 models/gibs/agibs.mdl
-  44: Flags:0x00020007 RefCount: 1 models/weapons/v_hands.mdl
-  45: Flags:0x00000007 sprites/gunsmoke.vmt
-  46: Flags:0x00020007 RefCount: 1 models/gibs/hgibs.mdl
-  47: Flags:0x00020007 RefCount: 1 models/weapons/v_stunbaton.mdl
-  48: Flags:0x00020007 RefCount: 1 models/weapons/w_stunbaton.mdl
-  49: Flags:0x00020007 RefCount: 1 models/Weapons/ar2_grenade.mdl
-  50: Flags:0x00020007 RefCount: 1 models/weapons/v_smg1.mdl
-  51: Flags:0x00020007 RefCount: 1 models/weapons/w_smg1.mdl
-  52: Flags:0x00020007 RefCount: 1 models/weapons/v_shotgun.mdl
-  53: Flags:0x00020007 RefCount: 1 models/weapons/w_shotgun.mdl
-  54: Flags:0x00020007 RefCount: 1 models/weapons/v_rpg.mdl
-  55: Flags:0x00020007 RefCount: 1 models/weapons/w_rocket_launcher.mdl
-  56: Flags:0x00000007 sprites/redglow1.vmt
-  57: Flags:0x00000007 effects/laser1_noz.vmt
-  58: Flags:0x00020007 RefCount: 1 models/weapons/w_missile.mdl
-  59: Flags:0x00020007 RefCount: 1 models/weapons/w_missile_launch.mdl
-  60: Flags:0x00020007 RefCount: 1 models/weapons/w_missile_closed.mdl
-  61: Flags:0x00020007 RefCount: 1 models/weapons/v_pistol.mdl
-  62: Flags:0x00020007 RefCount: 1 models/weapons/w_pistol.mdl
-  63: Flags:0x00000007 sprites/orangelight1.vmt
-  64: Flags:0x00000007 sprites/glow04_noz.vmt
-  65: Flags:0x00000007 sprites/orangeflare1.vmt
-  66: Flags:0x00000007 sprites/orangecore1.vmt
-  67: Flags:0x00000007 sprites/orangecore2.vmt
-  68: Flags:0x00000007 sprites/lgtning_noz.vmt
-  69: Flags:0x00000007 sprites/blueflare1_noz.vmt
-  70: Flags:0x00000007 effects/fluttercore.vmt
-  71: Flags:0x00020007 RefCount: 1 models/weapons/v_superphyscannon.mdl
-  72: Flags:0x00020007 RefCount: 1 models/weapons/v_physcannon.mdl
-  73: Flags:0x00020007 RefCount: 1 models/weapons/w_Physics.mdl
-  74: Flags:0x00020007 RefCount: 1 models/weapons/v_grenade.mdl
-  75: Flags:0x00020007 RefCount: 1 models/items/grenadeAmmo.mdl
-  76: Flags:0x00020007 RefCount: 1 models/Weapons/w_grenade.mdl
-  77: Flags:0x00000007 sprites/bluelaser1.vmt
-  78: Flags:0x00020007 RefCount: 1 models/weapons/v_crowbar.mdl
-  79: Flags:0x00020007 RefCount: 1 models/weapons/w_crowbar.mdl
-  80: Flags:0x00020007 RefCount: 1 models/crossbow_bolt.mdl
-  81: Flags:0x00000007 sprites/light_glow02_noz.vmt
-  82: Flags:0x00000007 sprites/blueflare1.vmt
-  83: Flags:0x00020007 RefCount: 1 models/weapons/v_crossbow.mdl
-  84: Flags:0x00020007 RefCount: 1 models/weapons/w_crossbow.mdl
-  85: Flags:0x00020007 RefCount: 1 models/weapons/w_suitcase_passenger.mdl
-  86: Flags:0x00020007 RefCount: 1 models/weapons/w_package.mdl
-  87: Flags:0x00020007 RefCount: 1 models/weapons/v_bugbait.mdl
-  88: Flags:0x00020007 RefCount: 1 models/weapons/w_bugbait.mdl
-  89: Flags:0x00020007 RefCount: 1 models/weapons/v_irifle.mdl
-  90: Flags:0x00020007 RefCount: 1 models/weapons/w_irifle.mdl
-  91: Flags:0x00020007 RefCount: 1 models/effects/combineball.mdl
-  92: Flags:0x00000007 sprites/combineball_trail_black_1.vmt
-  93: Flags:0x00000007 sprites/lgtning.vmt
-  94: Flags:0x00020007 RefCount: 1 models/weapons/w_annabelle.mdl
-  95: Flags:0x00020007 RefCount: 1 models/weapons/W_Alyx_Gun.mdl
-  96: Flags:0x00020007 RefCount: 1 models/weapons/v_357.mdl
-  97: Flags:0x00020007 RefCount: 1 models/weapons/w_357.mdl
-  98: Flags:0x00020007 RefCount: 1 models/healthvial.mdl
-  99: Flags:0x00020007 RefCount: 1 models/items/healthkit.mdl
- 100: Flags:0x00020007 RefCount: 1 models/items/battery.mdl
- 101: Flags:0x00000007 sprites/grubflare1.vmt
- 102: Flags:0x00000009 sprites/ar2_muzzle1.vmt
- 103: Flags:0x00000009 sprites/muzzleflash4.vmt
- 104: Flags:0x00000009 sprites/ar2_muzzle1b.vmt
- 105: Flags:0x00000009 sprites/ar2_muzzle2b.vmt
- 106: Flags:0x00000009 sprites/ar2_muzzle3b.vmt
- 107: Flags:0x00000009 sprites/ar2_muzzle4b.vmt
- 108: Flags:0x00000009 effects/combinemuzzle1.vmt
- 109: Flags:0x00000009 effects/combinemuzzle2.vmt
- 110: Flags:0x00020009 RefCount: 1 models/weapons/shell.mdl
- 111: Flags:0x00020009 RefCount: 1 models/weapons/rifleshell.mdl
- 112: Flags:0x00020009 RefCount: 1 models/weapons/shotgun_shell.mdl
-Recent NPC speech:
-Current time:  1.110
+DataTable warning: No matching RecvTable for SendTable 'DT_FleshEffectTarget'.
+DataTable warning: No matching RecvTable for SendTable 'DT_HalfLife2SurvivalProxy'.
+DataTable warning: No matching RecvTable for SendTable 'DT_NPC_Puppet'.
+DataTable warning: No matching RecvTable for SendTable 'DT_CPropJeepEpisodic'.
+DataTable warning: No matching RecvTable for SendTable 'DT_PropScalable'.
+Client missing DT class CFleshEffectTarget
+Client missing DT class CHalfLife2SurvivalProxy
+Client missing DT class CNPC_Puppet
+Client missing DT class CPropJeepEpisodic
+Client missing DT class CPropScalable
+Host_EndGame: CL_ParseClassInfo_EndClasses: CreateDecoders failed.
+
 Dropped unnamed from server (Disconnect by user.)
----- Host_NewGame ----
-Spawn Server: npc_test
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 8
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 4 classes, 1088 bytes.
-Game started
-
-Half-Life 2
-Map: npc_test
-Players: 1 / 1
-Build: 0
-Server Number: 2
-
-Initializing renderer...
-Sending full update to Client unnamed
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 32.142 KB, outgoing 1.321 KB
-Queued Material System: ENABLED!
-Compact freed 892928 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 5.477 msec!
+"sv_cheats" = "1" ( def. "0" )
+ notify replicated
+ - Allow cheats on server
 Attempted to create unknown entity type npc_bubbles!
-Queued Material System: DISABLED!
-Dropped unnamed from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-CLocalizedStringTable::AddFile() failed to load file "resource/mod_hado_spanish.txt".
-Parsed 26 text messages
-CClientSteamContext logged on = 1
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-[Cloud]: Default setting with remote data non-existent, sync all
-execing config.cfg
-Unknown command "cl_thirdperson"
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-CTFSteamStats: failed to download stats from Steam, EResult 2
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Sending full update to Client Yamete
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 821 bytes
-Compact freed 303104 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.471 msec!
-Attempted to create unknown entity type npc_bubbles!
-Dropped Yamete from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-CLocalizedStringTable::AddFile() failed to load file "resource/mod_hado_spanish.txt".
-Parsed 26 text messages
-CClientSteamContext logged on = 1
-Convar developer has multiple help strings:
-	parent (wins): "Set developer message level"
-	child: "Set developer message level."
-Parent and child ConVars with different default values! think_limit child: 20 parent: 10 (parent wins)
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-[Cloud]: Default setting with remote data non-existent, sync all
-execing config.cfg
-Unknown command "vr_ipdtest_left_t"
-Unknown command "vr_ipdtest_left_b"
-Unknown command "vr_ipdtest_left_i"
-Unknown command "vr_ipdtest_left_o"
-Unknown command "vr_ipdtest_right_t"
-Unknown command "vr_ipdtest_right_b"
-Unknown command "vr_ipdtest_right_i"
-Unknown command "vr_ipdtest_right_o"
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-CTFSteamStats: failed to download stats from Steam, EResult 2
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Duplicately assigned weapon slots in selection hud:  #HL2_Pulse_Rifle (2, 1)
-Duplicately assigned weapon slots in selection hud:  #HL2_SMG1 (2, 0)
-Duplicately assigned weapon slots in selection hud:  #HL2_Cubemap (2, 0)
-Duplicately assigned weapon slots in selection hud:  #HL2_SMG1 (2, 0)
-Sending full update to Client Yamete
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 821 bytes
-Compact freed 262144 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.933 msec!
-Attempted to create unknown entity type npc_bubbles!
-Dropped Yamete from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-Convar developer has multiple help strings:
-	parent (wins): "Set developer message level"
-	child: "Set developer message level."
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-CLocalizedStringTable::AddFile() failed to load file "resource/mod_hado_spanish.txt".
-Parsed 26 text messages
-CClientSteamContext logged on = 1
-Convar developer has multiple help strings:
-	parent (wins): "Set developer message level"
-	child: "Set developer message level."
-Parent and child ConVars with different default values! think_limit child: 20 parent: 10 (parent wins)
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-[Cloud]: Default setting with remote data non-existent, sync all
-execing config.cfg
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-CTFSteamStats: failed to download stats from Steam, EResult 2
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Duplicately assigned weapon slots in selection hud:  #HL2_Pulse_Rifle (2, 1)
-Duplicately assigned weapon slots in selection hud:  #HL2_SMG1 (2, 0)
-Duplicately assigned weapon slots in selection hud:  #HL2_Cubemap (2, 0)
-Duplicately assigned weapon slots in selection hud:  #HL2_SMG1 (2, 0)
-Sending full update to Client Yamete
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 821 bytes
-Compact freed 258048 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.632 msec!
-Attempted to create unknown entity type npc_bubbles!
-Dropped Yamete from server (Disconnect by user.)
----- Host_NewGame ----
-Spawn Server: npc_test
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 18
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 4 classes, 1088 bytes.
-Game started
-
-Half-Life 2
-Map: npc_test
-Players: 1 / 1
-Build: 0
-Server Number: 2
-
-Initializing renderer...
-Sending full update to Client Yamete
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 32.142 KB, outgoing 1.496 KB
-Queued Material System: ENABLED!
-Compact freed 958464 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 5.986 msec!
-Attempted to create unknown entity type npc_bubbles!
-noclip ON
-Queued Material System: DISABLED!
-Dropped Yamete from server (Server shutting down)
-Host_WriteConfiguration: Wrote cfg/config.cfg
-CreateEvent: event 'server_shutdown' not registered.
-Shutdown function ShutdownMixerControls() not in list!!!
-Convar developer has multiple help strings:
-	parent (wins): "Set developer message level"
-	child: "Set developer message level."
-CSoundEmitterSystem:  Registered 5146 sounds
-CResponseSystem:  scripts\talker\response_rules.txt (217 rules, 214 criteria, and 208 responses)
-maxplayers set to 1
-Heap: 256.00 Mb
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-KeyValues Error: RecursiveLoadFromBuffer:  got EOF instead of keyname in file Resource/GameLogo.res
-Resource/GameLogo.res, (*Logo*), 
-Steam config directory: C:\Program Files (x86)\Steam\steamapps\common\Source SDK Base 2013 Singleplayer\platform\config
-CLocalizedStringTable::AddFile() failed to load file "resource/mod_hado_spanish.txt".
-Parsed 26 text messages
-CClientSteamContext logged on = 1
-Convar developer has multiple help strings:
-	parent (wins): "Set developer message level"
-	child: "Set developer message level."
-Parent and child ConVars with different default values! think_limit child: 20 parent: 10 (parent wins)
-CGameEventManager::AddListener: event 'achievement_earned' unknown.
-[Cloud]: Default setting with remote data non-existent, sync all
-execing config.cfg
-cc_lang = 
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Unknown command "sv_backspeed"
-Not playing a local game.
-Sound Initialization: Start
-DS:7.1 speaker configuration detected
-Set primary sound buffer format: yes
-DirectSound initialized
-Sound Initialization: Finish, Sampling Rate: 44100
-8 CPUs, Frequency: 2.1 Ghz,  Features: AuthenticAMD SSE SSE2 MMX RDTSC CMOV FCMOV
-execing valve.rc
-execing autoexec.cfg
-execing modsettings.cfg
-material "vgui/servers/icon_replay" not found.
---- Missing Vgui material vgui/servers/icon_replay
-material "vgui/servers/icon_replay_column" not found.
---- Missing Vgui material vgui/servers/icon_replay_column
----- Host_NewGame ----
-Spawn Server: background_bathroom
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-PrecacheScriptSound 'Hud.Hint' failed, no such sound script entry
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 10
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Created class baseline: 5 classes, 1290 bytes.
-Game started
-CTFSteamStats: failed to download stats from Steam, EResult 2
-
-Half-Life 2
-Map: background_bathroom
-Players: 1 / 1
-Build: 0
-Server Number: 1
-
-Initializing renderer...
-PutClientInServer: no info_player_start on level
-Duplicately assigned weapon slots in selection hud:  #HL2_Pulse_Rifle (2, 1)
-Duplicately assigned weapon slots in selection hud:  #HL2_SMG1 (2, 0)
-Duplicately assigned weapon slots in selection hud:  #HL2_Cubemap (2, 0)
-Duplicately assigned weapon slots in selection hud:  #HL2_SMG1 (2, 0)
-Sending full update to Client Yamete
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 33.863 KB, outgoing 821 bytes
-Compact freed 417792 bytes
-JOY_AXIS_X:  mapped to Turn (absolute)
-JOY_AXIS_Y:  mapped to Look (absolute)
-JOY_AXIS_Z:  unmapped
-JOY_AXIS_R:  mapped to Forward (absolute)
-JOY_AXIS_U:  mapped to Side (absolute)
-JOY_AXIS_V:  unmapped
-Advanced Joystick settings initialized
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 0.406 msec!
-Attempted to create unknown entity type npc_bubbles!
-Dropped Yamete from server (Server shutting down)
----- Host_NewGame ----
-Spawn Server: npc_test
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-SOLID_VPHYSICS static prop with no vphysics model! (models/props_foliage/tree_pine_tall_02.mdl)
-execing skill_manifest.cfg
-'skill.cfg' not present; not executing.
-execing skill_episodic.cfg
-Unknown command "sk_zombie_soldier_health"
-Unknown command "sk_antlion_worker_spit_speed"
-Unknown command "sk_antlion_worker_health"
-Unknown command "sk_advisor_health"
-Set Gravity 600.0 (0.250 tolerance)
-Loading AI graph
-Step 1 loading
-Checking version
-Passed first ver check
-Got version 37
-Map version 18
-Done version checks
-Finishing load
-'cfg/motd.txt' not found; not loaded
-'cfg/motd_text.txt' not found; not loaded
-Game started
-
-Half-Life 2
-Map: npc_test
-Players: 1 / 1
-Build: 0
-Server Number: 2
-
-Initializing renderer...
-Sending full update to Client Yamete
-Set Gravity 600.0 (0.250 tolerance)
-Signon traffic "CLIENT":  incoming 31.052 KB, outgoing 1.276 KB
-Queued Material System: ENABLED!
-Compact freed 851968 bytes
-Redownloading all lightmaps
-R_RedownloadAllLightmaps took 9.944 msec!
-Attempted to create unknown entity type npc_bubbles!
-Queued Material System: DISABLED!
-Dropped Yamete from server (Server shutting down)
 Host_WriteConfiguration: Wrote cfg/config.cfg
 CreateEvent: event 'server_shutdown' not registered.
 Shutdown function ShutdownMixerControls() not in list!!!
