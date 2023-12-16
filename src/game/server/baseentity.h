@@ -1918,7 +1918,12 @@ inline string_t CBaseEntity::GetEntityName()
 { 
 	return m_iName; 
 }
-
+/*
+inline const char *CBaseEntity::GetEntityNameAsCStr()
+{
+	return STRING(m_iName.Get());
+}
+*/
 inline void CBaseEntity::SetName( string_t newName )
 {
 	m_iName = newName;
